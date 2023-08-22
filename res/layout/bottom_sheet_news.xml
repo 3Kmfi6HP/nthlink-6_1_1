@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/shape_bottom_sheet_backgound" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="com.google.android.material.bottomsheet.BottomSheetBehavior" style="?bottomSheetStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/resistance" android:paddingTop="@dimen/distance_16_dp" android:paddingBottom="@dimen/distance_16_dp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/ic_resistance" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/news_list" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="@dimen/distance_18_dp" android:layout_marginStart="@dimen/distance_12_dp" android:layout_marginEnd="@dimen/distance_12_dp" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+</LinearLayout>

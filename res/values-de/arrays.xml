@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="issue_categories">
+        <item>Generelle Rückmeldung</item>
+        <item>Kann nicht verbinden</item>
+        <item>Die Verbindungsgeschwindigkeit ist langsam</item>
+        <item>Anregungen</item>
+        <item>Andere</item>
+    </string-array>
+</resources>

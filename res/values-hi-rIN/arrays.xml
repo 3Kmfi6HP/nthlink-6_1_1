@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="issue_categories">
+        <item>सामान्य प्रतिक्रिया</item>
+        <item>कनेक्ट नहीं हो सकता</item>
+        <item>कनेक्शन की गति धीमी है</item>
+        <item>सुझाव</item>
+        <item>अन्य</item>
+    </string-array>
+</resources>

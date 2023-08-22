@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="issue_categories">
+        <item>Generel feedback</item>
+        <item>Kan ikke oprette forbindelse</item>
+        <item>Forbindelseshastigheden er langsom</item>
+        <item>Forslag</item>
+        <item>Andet</item>
+    </string-array>
+</resources>

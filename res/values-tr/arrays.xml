@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="issue_categories">
+        <item>Genel geribildirim</item>
+        <item>Bağlanamıyor</item>
+        <item>Bağlantı hızı yavaş</item>
+        <item>Öneriler</item>
+        <item>Diğer</item>
+    </string-array>
+</resources>

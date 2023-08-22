@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="issue_categories">
+        <item>Yleinen palaute</item>
+        <item>Ei pysty yhdistämään</item>
+        <item>Yhteysnopeus on hidas</item>
+        <item>Ehdotukset</item>
+        <item>Muut</item>
+    </string-array>
+</resources>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="@dimen/distance_20_dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/feedback_issue_category_title" />
+    <com.google.android.material.textfield.TextInputLayout android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu">
+        <com.google.android.material.textfield.MaterialAutoCompleteTextView android:id="@id/input_issue_category" android:layout_width="fill_parent" android:layout_height="wrap_content" android:inputType="none" />
+    </com.google.android.material.textfield.TextInputLayout>
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/distance_12_dp" android:text="@string/feedback_email_title" />
+    <com.google.android.material.textfield.TextInputLayout android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <com.google.android.material.textfield.TextInputEditText android:id="@id/input_email" android:layout_width="fill_parent" android:layout_height="wrap_content" android:inputType="textEmailAddress" />
+    </com.google.android.material.textfield.TextInputLayout>
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/distance_12_dp" android:text="@string/feedback_description_title" app:drawableEndCompat="@drawable/ic_required" />
+    <com.google.android.material.textfield.TextInputLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <com.google.android.material.textfield.TextInputEditText android:gravity="start|center|top" android:id="@id/input_description" android:layout_width="fill_parent" android:layout_height="fill_parent" android:inputType="textMultiLine" />
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textview.MaterialTextView android:id="@id/feedback_note" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/distance_12_dp" android:text="@string/feedback_note_text" android:lineSpacingExtra="@dimen/distance_10_dp" />
+    <com.google.android.material.button.MaterialButton android:id="@id/feedback_submit" android:paddingTop="@dimen/distance_16_dp" android:paddingBottom="@dimen/distance_16_dp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/distance_12_dp" android:text="@string/feedback_submit" app:cornerRadius="@dimen/corner_radius_50_dp" />
+</LinearLayout>

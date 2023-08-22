@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="issue_categories">
+        <item>일반 피드백</item>
+        <item>연결할 수 없습니다</item>
+        <item>연결 속도가 느립니다</item>
+        <item>제안</item>
+        <item>기타</item>
+    </string-array>
+</resources>

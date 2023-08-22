@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="issue_categories">
+        <item>Obecná zpětná vazba</item>
+        <item>Nelze spojit</item>
+        <item>Rychlost připojení je pomalá</item>
+        <item>Návrhy</item>
+        <item>Jiný</item>
+    </string-array>
+</resources>

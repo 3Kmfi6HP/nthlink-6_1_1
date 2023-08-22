@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="issue_categories">
+        <item>Masukan umum</item>
+        <item>Tidak dapat terhubung</item>
+        <item>Kecepatan koneksi lambat</item>
+        <item>Saran</item>
+        <item>Lainnya</item>
+    </string-array>
+</resources>

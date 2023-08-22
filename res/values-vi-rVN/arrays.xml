@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="issue_categories">
+        <item>Thông tin phản hồi chung</item>
+        <item>Không thể kết nối</item>
+        <item>Tốc độ kết nối chậm</item>
+        <item>Gợi ý</item>
+        <item>Khác</item>
+    </string-array>
+</resources>

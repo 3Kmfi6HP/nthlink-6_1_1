@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_width="@dimen/distance_120_dp" android:layout_height="@dimen/distance_120_dp" android:layout_marginTop="@dimen/distance_52_dp" android:layout_marginBottom="@dimen/distance_24_dp" android:src="@drawable/nthlink_logo_blue" />
+</LinearLayout>

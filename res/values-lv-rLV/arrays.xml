@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="issue_categories">
+        <item>Vispārīgas atsauksmes</item>
+        <item>Nevar izveidot savienojumu</item>
+        <item>Savienojuma ātrums ir lēns</item>
+        <item>Ieteikumi</item>
+        <item>Cits</item>
+    </string-array>
+</resources>

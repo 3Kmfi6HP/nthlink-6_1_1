@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="issue_categories">
+        <item>一般的なフィードバック</item>
+        <item>接続できません</item>
+        <item>接続速度が遅い</item>
+        <item>提案</item>
+        <item>他の</item>
+    </string-array>
+</resources>

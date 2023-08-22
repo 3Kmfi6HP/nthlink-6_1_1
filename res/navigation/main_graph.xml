@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation android:id="@id/main_graph" app:startDestination="@id/connectionFragment"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <fragment android:name="com.nthlink.android.client.ui.connection.ConnectionFragment2" android:id="@id/connectionFragment">
+        <action android:id="@id/action_connectionFragment_to_aboutFragment" app:destination="@id/aboutFragment" />
+        <action android:id="@id/action_connectionFragment_to_feedbackFragment" app:destination="@id/feedbackFragment" />
+        <action android:id="@id/action_connectionFragment_to_webFragment" app:destination="@id/webFragment" />
+    </fragment>
+    <fragment android:label="@string/about_page_title" android:name="com.nthlink.android.client.ui.about.AboutFragment" android:id="@id/aboutFragment" />
+    <fragment android:label="@string/feedback_page_title" android:name="com.nthlink.android.client.ui.feedback.FeedbackFragment" android:id="@id/feedbackFragment" />
+    <fragment android:label="@string/app_name" android:name="com.nthlink.android.client.ui.web.WebFragment" android:id="@id/webFragment">
+        <argument android:name="url" app:argType="string" />
+        <argument android:name="source" app:argType="integer" />
+    </fragment>
+</navigation>

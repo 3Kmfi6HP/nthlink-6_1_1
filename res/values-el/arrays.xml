@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="issue_categories">
+        <item>Γενική ανατροφοδότηση</item>
+        <item>Δεν μπορεί να συνδεθεί</item>
+        <item>Η ταχύτητα σύνδεσης είναι αργή</item>
+        <item>Προτάσεις</item>
+        <item>Άλλο</item>
+    </string-array>
+</resources>

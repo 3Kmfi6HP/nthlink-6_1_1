@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView android:id="@id/privacy_submit_card" android:layout_width="@dimen/match_constraint" android:layout_height="wrap_content" app:cardElevation="@dimen/distance_28_dp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent">
+        <com.google.android.material.button.MaterialButton android:id="@id/privacy_submit" android:paddingTop="@dimen/distance_16_dp" android:paddingBottom="@dimen/distance_16_dp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/distance_20_dp" android:text="@string/privacy_notice_submit" app:cornerRadius="@dimen/corner_radius_50_dp" />
+    </androidx.cardview.widget.CardView>
+    <ScrollView android:layout_width="@dimen/match_constraint" android:layout_height="@dimen/match_constraint" app:layout_constraintBottom_toTopOf="@id/privacy_submit_card" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.airbnb.lottie.LottieAnimationView android:layout_width="260.0dip" android:layout_height="195.0dip" android:layout_marginTop="@dimen/distance_18_dp" android:layout_marginBottom="@dimen/distance_18_dp" app:lottie_autoPlay="true" app:lottie_loop="true" app:lottie_rawRes="@raw/lottie_privacy" />
+            <TextView android:textSize="@dimen/font_24_sp" android:textStyle="bold" android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/distance_16_dp" android:text="@string/privacy_notice_title" />
+            <TextView android:textSize="@dimen/font_20_sp" android:textColor="@color/black" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/privacy_notice_text" android:lineSpacingExtra="@dimen/distance_10_dp" android:layout_marginStart="@dimen/distance_16_dp" android:layout_marginEnd="@dimen/distance_16_dp" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

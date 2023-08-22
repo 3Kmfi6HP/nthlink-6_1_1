@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="issue_categories">
+        <item>ข้อเสนอแนะทั่วไป</item>
+        <item>ไม่สามารถเชื่อมต่อ</item>
+        <item>ความเร็วในการเชื่อมต่อช้า</item>
+        <item>คำแนะนำ</item>
+        <item>อื่น ๆ</item>
+    </string-array>
+</resources>

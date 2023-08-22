@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="issue_categories">
+        <item>Опште повратне информације</item>
+        <item>Не може да се повеже</item>
+        <item>Брзина везе је мала</item>
+        <item>Предлози</item>
+        <item>Остало</item>
+    </string-array>
+</resources>

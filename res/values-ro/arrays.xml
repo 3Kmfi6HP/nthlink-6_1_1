@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="issue_categories">
+        <item>Feedback general</item>
+        <item>Nu se poate conecta</item>
+        <item>Viteza de conectare este mică</item>
+        <item>Sugestii</item>
+        <item>Alte</item>
+    </string-array>
+</resources>

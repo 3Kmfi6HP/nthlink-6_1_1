@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/ic_nthlink_logo_blue" android:id="@id/drawer_menu_item_1" android:title="@string/menu_drawer_item_1" />
+    <item android:icon="@drawable/ic_round_feedback" android:id="@id/drawer_menu_item_2" android:title="@string/menu_drawer_item_2" />
+    <item android:icon="@drawable/ic_round_info" android:id="@id/drawer_menu_item_3" android:title="@string/menu_drawer_item_3" />
+    <item android:icon="@drawable/ic_round_help" android:id="@id/drawer_menu_item_4" android:title="@string/menu_drawer_item_4" />
+    <item android:icon="@drawable/ic_rate_app" android:id="@id/drawer_menu_item_5" android:title="@string/menu_drawer_item_5" />
+</menu>

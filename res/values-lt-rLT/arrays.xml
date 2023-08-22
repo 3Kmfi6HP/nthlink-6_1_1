@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="issue_categories">
+        <item>Bendras atsiliepimas</item>
+        <item>Negalima prisijungti</item>
+        <item>Ryšio greitis lėtas</item>
+        <item>Pasiūlymai</item>
+        <item>Kita</item>
+    </string-array>
+</resources>

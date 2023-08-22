@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="issue_categories">
+        <item>አጠቃላይ አስተያየት</item>
+        <item>መገናኘት አልተቻለም</item>
+        <item>የግንኙነት ፍጥነት ቀርፋፋ ነው።</item>
+        <item>ጥቆማዎች</item>
+        <item>ሌላ</item>
+    </string-array>
+</resources>

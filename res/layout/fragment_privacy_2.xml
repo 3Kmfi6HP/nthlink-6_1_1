@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="@color/eggshell_white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView android:id="@id/privacy_submit_card" android:layout_width="@dimen/match_constraint" android:layout_height="wrap_content" app:cardBackgroundColor="@color/eggshell_white" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent">
+        <com.google.android.material.button.MaterialButton android:textColor="@color/black" android:id="@id/privacy_submit" android:paddingTop="@dimen/distance_16_dp" android:paddingBottom="@dimen/distance_16_dp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/distance_20_dp" android:text="@string/privacy_notice_submit" app:backgroundTint="@color/white" app:cornerRadius="@dimen/distance_18_dp" />
+    </androidx.cardview.widget.CardView>
+    <ScrollView android:scrollbars="vertical" android:layout_width="@dimen/match_constraint" android:layout_height="@dimen/match_constraint" android:layout_margin="@dimen/distance_32_dp" android:fadeScrollbars="false" app:layout_constraintBottom_toTopOf="@id/privacy_submit_card" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="30.0sp" android:textStyle="bold" android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/temp_privacy_policy" android:fontFamily="@font/work_sans_normal" />
+            <TextView android:textSize="@dimen/font_20_sp" android:textColor="@color/black" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/distance_12_dp" android:text="@string/temp_privacy_policy_content" android:lineSpacingExtra="@dimen/distance_10_dp" android:fontFamily="@font/work_sans_normal" />
+            <TextView android:textSize="30.0sp" android:textStyle="bold" android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/distance_20_dp" android:text="Terms of Use" android:fontFamily="@font/work_sans_normal" />
+            <TextView android:textSize="@dimen/font_20_sp" android:textColor="@color/black" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/distance_12_dp" android:text="@string/temp_terms_of_use_content" android:lineSpacingExtra="@dimen/distance_10_dp" android:fontFamily="@font/work_sans_normal" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

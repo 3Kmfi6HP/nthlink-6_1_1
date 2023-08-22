@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="issue_categories">
+        <item>Загальний відгук</item>
+        <item>Не вдається підключитися</item>
+        <item>Швидкість підключення низька</item>
+        <item>Пропозиції</item>
+        <item>Інше</item>
+    </string-array>
+</resources>

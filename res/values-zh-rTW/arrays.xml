@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="issue_categories">
+        <item>一般問題</item>
+        <item>無法連線</item>
+        <item>速度太慢</item>
+        <item>建議</item>
+        <item>其他</item>
+    </string-array>
+</resources>

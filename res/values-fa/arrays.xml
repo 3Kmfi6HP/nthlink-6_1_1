@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="issue_categories">
+        <item>بازخورد عمومی</item>
+        <item>نمی تواند وصل شود</item>
+        <item>سرعت اتصال پایین است</item>
+        <item>پیشنهادات</item>
+        <item>سایر</item>
+    </string-array>
+</resources>

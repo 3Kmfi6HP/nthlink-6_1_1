@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="issue_categories">
+        <item>Általános visszajelzés</item>
+        <item>Nem tud csatlakozni</item>
+        <item>A kapcsolat sebessége lassú</item>
+        <item>Javaslatok</item>
+        <item>Egyéb</item>
+    </string-array>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:id="@id/news_card" android:layout_width="fill_parent" android:layout_height="@dimen/distance_300_dp" app:cardCornerRadius="@dimen/distance_8_dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <WebView android:id="@id/web_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.google.android.material.imageview.ShapeableImageView android:layout_gravity="end|center|top" android:background="@color/grey_CCF1F1F1" android:layout_width="@dimen/distance_48_dp" android:layout_height="@dimen/distance_48_dp" android:layout_marginTop="@dimen/distance_20_dp" android:src="@drawable/ic_to_expand" android:scaleType="centerCrop" android:layout_marginEnd="@dimen/distance_20_dp" app:contentPadding="@dimen/distance_8_dp" app:shapeAppearanceOverlay="@style/roundedCorner" app:strokeColor="@color/grey_C4C4C4" app:strokeWidth="@dimen/distance_1_dp" />
+    <View android:id="@id/web_view_surface" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="issue_categories">
+        <item>Обща обратна връзка</item>
+        <item>Не мога да се свържа</item>
+        <item>Скоростта на връзката е бавна</item>
+        <item>Предложения</item>
+        <item>Друго</item>
+    </string-array>
+</resources>
